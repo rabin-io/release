@@ -1614,11 +1614,10 @@ resources:
   state: free
   type: aws-edge-zones-quota-slice
 - names:
-  - us-east-2--aws-interop-qe-quota-slice-0
-  - us-east-2--aws-interop-qe-quota-slice-1
-  - us-east-2--aws-interop-qe-quota-slice-2
-  - us-east-2--aws-interop-qe-quota-slice-3
-  - us-east-2--aws-interop-qe-quota-slice-4
+  - us-east-2
+  - us-west-1
+  - us-west-2--aws-interop-qe-quota-slice-0
+  - us-west-2--aws-interop-qe-quota-slice-1
   state: free
   type: aws-interop-qe-quota-slice
 - max-count: 256

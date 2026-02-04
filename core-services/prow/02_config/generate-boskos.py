@@ -83,7 +83,9 @@ CONFIG = {
         'us-isob-east-1': 5,
     },
     'aws-interop-qe-quota-slice': {
-        'us-east-2': 5,
+        'us-east-2': 1,
+        'us-west-1': 1,
+        'us-west-2': 2
     },
     'aws-edge-zones-quota-slice': {
         'us-east-1': 10,
