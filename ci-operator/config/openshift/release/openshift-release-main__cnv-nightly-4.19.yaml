@@ -56,7 +56,7 @@ tests:
       OPENSHIFT_INSTALL_RELEASE_IMAGE_OVERRIDE: release:multi-latest
     env:
       COMPUTE_NODE_REPLICAS: "2"
-      COMPUTE_NODE_TYPE: c6g.metal
+      COMPUTE_NODE_TYPE: c8g.metal-24xl
       KUBEVIRT_RELEASE: v1.4.0
       KUBEVIRT_STORAGECLASS_NAME: gp3-csi
       KUBEVIRT_STORAGECLASS_RWX_NAME: ""
@@ -78,7 +78,7 @@ tests:
       OPENSHIFT_INSTALL_RELEASE_IMAGE_OVERRIDE: release:multi-initial
     env:
       COMPUTE_NODE_REPLICAS: "2"
-      COMPUTE_NODE_TYPE: c6g.metal
+      COMPUTE_NODE_TYPE: c8g.metal-24xl
       KUBEVIRT_RELEASE: v1.4.0
       KUBEVIRT_STORAGECLASS_NAME: gp3-csi
       KUBEVIRT_STORAGECLASS_RWX_NAME: ""
